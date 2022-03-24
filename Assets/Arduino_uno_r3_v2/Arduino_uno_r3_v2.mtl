@@ -1,0 +1,112 @@
+# Blender MTL File: 'Arduino_uno_r3_v2.blend'
+# Material Count: 9
+
+newmtl Arduino_Uno.001
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.075009 0.168457 0.213409
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+refl /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+
+newmtl Arduino_Uno.001.back
+Ns 135.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.801522 0.854979 0.798340
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00005.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00005.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00005.png
+
+newmtl Arduino_Uno.001.side
+Ns 135.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.019506 0.037064 0.044455
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+refl /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+
+newmtl Arduino_Uno.001.side.USB
+Ns 135.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.019506 0.037064 0.044455
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00006.png
+refl /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+
+newmtl Arduino_Uno.001.side2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.186412 0.161842 0.133294
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+
+newmtl Arduino_Uno.001.side2.USB
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.186412 0.161842 0.133294
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+refl /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+
+newmtl Arduino_Uno.001.side2_DSC_00003.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.186412 0.161842 0.133294
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00007.png
+
+newmtl Arduino_Uno.001_NONE
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.075009 0.168457 0.213409
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+map_Kd /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+map_Ks /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+refl /Macintosh_HD/Users/pratiksuketu/Desktop/arduino-uno-board-1/source/Arduino_uno_r3_v2.zip/textures/DSC_00003.png
+
+newmtl Arduino_Uno.002_usb
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.256806 0.257066 0.200169
+Ks 0.560108 0.600000 0.582140
+Ni 1.000000
+d 1.000000
+illum 2

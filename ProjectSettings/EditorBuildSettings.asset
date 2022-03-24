@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionTouchablesExample.unity
     guid: 8fc886df468b93f429bb6fb0ad560f3a
+  - enabled: 1
+    path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionExamples.unity
+    guid: 3dd4a396b5225f8469b9a1eb608bfa57
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2164664a0eaca84479198360b9d57cac, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 39f39a5a0dc95b04f9de22d3d094c113, type: 2}
