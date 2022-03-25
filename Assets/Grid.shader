@@ -73,8 +73,8 @@ Shader "Unlit/Grid"
 			{
 
 				fixed r = DrawGrid(i.uv, _GridSize, 0.03);
-				fixed b = DrawGrid(i.uv, _Grid2Size, 0.005);
-				fixed g = DrawGrid(i.uv, _Grid3Size, 0.002);
+				fixed b = DrawGrid(i.uv, _Grid2Size, 0.05);
+				fixed g = DrawGrid(i.uv, _Grid3Size, 0.04);
 				return float4(0.8 * r * _Alpha,0.8 * g * _Alpha,0.8 * b * _Alpha,(r + b + g) * _Alpha);
 			}
 			ENDCG
