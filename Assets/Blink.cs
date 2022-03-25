@@ -18,12 +18,14 @@ public class Blink : MonoBehaviour
     void LED_ON() {
         LED_on.SetActive(true);
         LED_off.SetActive(false);
+        LED_STATE = false;
         LED_WAIT = true;
     }
     void LED_OFF()
     {
         LED_on.SetActive(false);
         LED_off.SetActive(true);
+        LED_STATE = true;
         LED_WAIT = true;
     }
 
@@ -31,12 +33,14 @@ public class Blink : MonoBehaviour
     void Update()
     {
         if (LED_WAIT && LED_STATE == true) {
-            Invoke("LED_OFF", 2.0f);
             LED_WAIT = false;
+            Invoke("LED_ON", 2.0f);
+            
         }else if (LED_WAIT && LED_STATE == false)
         {
-            Invoke("LED_ON", 2.0f);
-            LED_WAIT = true;
+            LED_WAIT = false;
+            Invoke("LED_OFF", 2.0f);
+            
         }
 
 
