@@ -7,8 +7,12 @@ public class switchModels : MonoBehaviour
       
     public GameObject full_Arduino;
     public GameObject mock_Arduino;
-    public float dead_logo = 5.5f;
     bool pressed = false;
+
+    void Start()
+    {
+        Invoke("OffLogo", 5.0f);
+    }
 
     void OffLogo()
     {
@@ -18,17 +22,5 @@ public class switchModels : MonoBehaviour
         pressed = false;
     }
 
-    //use Invoke rather than InvokeRepeating
-    void Update()
-    {
-        if (!pressed)
-        {
-            pressed = true;
-            Invoke("OffLogo", dead_logo);
-        }
-        else
-        {
-            Debug.Log("Button already pressed");
-        }
-    }
+    
 }
