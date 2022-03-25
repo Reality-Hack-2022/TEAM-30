@@ -12,12 +12,16 @@ public class CircuitManager : MonoBehaviour
 {
     public static double stepsPerSecond = 15;
 
+    public static Wireable draggingNode = null;
+    public static Color currentColor = Color.clear;
+
     Circuit ckt;
     ISimulation sim;
 
     void Start()
     {
         this.ckt = new Circuit();
+        draggingNode = null;
         BuildCircuit();
 
         this.sim.Run(ckt);
