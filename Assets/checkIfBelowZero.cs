@@ -45,6 +45,13 @@ public class checkIfBelowZero : MonoBehaviour
     public Texture m_highPower;
     public Texture m_rightPower;
 
+    public GameObject workArea;
+    public GameObject realModel;
+
+    public GameObject modelButton;
+
+    public bool ended = false;
+
 
     void Start()
     {
@@ -156,9 +163,19 @@ public class checkIfBelowZero : MonoBehaviour
             Invoke("AddResistor2", 8.0f);
         }
 
-        if (DiodeNodeDynamic.amperage > 0.001f && DiodeNodeDynamic.amperage < 0.1f) {
+        if (DiodeNodeDynamic.amperage > 0.001f && DiodeNodeDynamic.amperage < 0.1f && !ended) {
             //we have a working current
+
+            ended = true;
             m_Renderer.material.SetTexture("_MainTex", m_rightPower);
+            if (pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>() != null)
+            {
+                var vidPlayer = pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>();
+                vidPlayer.clip = (UnityEngine.Video.VideoClip)Resources.Load("pirateVideo/Nested Sequence 24");
+                // Invoke("ViewFullModel", 7.0f);
+                //    Destroy(GetComponent(vidPlayer.GetType()));
+            }
+            modelButton.SetActive(true);
         }
 
 
@@ -205,4 +222,22 @@ public class checkIfBelowZero : MonoBehaviour
         //light up the two nodes
         twoNodes.SetActive(true);
     }
+
+    void ViewFullModel()
+    {
+
+        if (pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>() != null)
+        {
+            var vidPlayer = pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>();
+            vidPlayer.clip = (UnityEngine.Video.VideoClip)Resources.Load("pirateVideo/Nested Sequence 19");
+            //    Destroy(GetComponent(vidPlayer.GetType()));
+        }
+    }
+
+    public void SwapToModel() {
+
+        realModel.SetActive(true);
+        workArea.SetActive(false);
+    }
+
 }
