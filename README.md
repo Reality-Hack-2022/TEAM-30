@@ -20,7 +20,7 @@ ARRR.duino was built in _Unity 2020 3.28_ using the **Microsoft Mixed Reality To
 
 The demo will be running on the Microsoft HoloLens 2 
 
-The circuit logic is being accurately simulated using the [SPICE] (https://www.ultralibrarian.com/2020/07/08/spice-model-library-for-easy-integration-and-simulation-ulc) Library
+The circuit logic is being accurately simulated using the [SPICE](https://www.ultralibrarian.com/2020/07/08/spice-model-library-for-easy-integration-and-simulation-ulc) Library
 
 The character rigging and animation was done in Unreal Engine 5 
 
