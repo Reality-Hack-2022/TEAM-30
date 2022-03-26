@@ -14,7 +14,8 @@ public class Scene1 : MonoBehaviour
     //video to start
     public GameObject pirateVideo;
     //scroll image
-    public Texture pirateScroll;
+    public Material pirateScroll;
+    public Texture pirateScrollImage;
     //length of audio
     public float audioLength;
     //isAudioFinished
@@ -28,22 +29,21 @@ public class Scene1 : MonoBehaviour
         for (int i = 0; i < hideThese.Length; i++)
         {
             hideThese[i].SetActive(false);
-            //Debug.Log(go.name);
         }
 
         for (int i = 0; i < hideThese.Length; i++)
         {
             showThese[i].SetActive(true);
-            //Debug.Log(go.name);
         }
         //AudioClip.PlayOneShot(pirateVoice, 0.9f);
         if (pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>() != null)
-        { //errors here
+        { 
             var vidPlayer = pirateVideo.GetComponent<UnityEngine.Video.VideoPlayer>();
-
             Destroy(GetComponent(vidPlayer.GetType()));
         }
         pirateVideo.AddComponent<UnityEngine.Video.VideoPlayer>();
+
+        //pirateScroll.SetTexture(pirateScrollImage);
 
     }
 

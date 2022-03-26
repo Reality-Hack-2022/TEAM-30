@@ -10,7 +10,7 @@ Material:
   m_Name: Rail
   m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
   m_ShaderKeywords: _ALBEDOASSIGNEDATRUNTIME_ON _ALPHATEST_ON _BORDER_LIGHT _BORDER_LIGHT_OPAQUE
-    _BORDER_LIGHT_REPLACES_ALBEDO _HOVER_LIGHT _METALLIC_TEXTURE_ALBEDO_CHANNEL_A
+    _BORDER_LIGHT_REPLACES_ALBEDO _ENVIRONMENT_COLORING _HOVER_LIGHT _METALLIC_TEXTURE_ALBEDO_CHANNEL_A
     _PROXIMITY_LIGHT _ROUND_CORNERS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -117,7 +117,7 @@ Material:
     - _EnableTriplanarMapping: 0
     - _EnvironmentColorIntensity: 0.5
     - _EnvironmentColorThreshold: 1.5
-    - _EnvironmentColoring: 0
+    - _EnvironmentColoring: 1
     - _FadeBeginDistance: 0.85
     - _FadeCompleteDistance: 0.5
     - _FadeMinValue: 0
